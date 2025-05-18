@@ -46,10 +46,10 @@ export default function DashboardLayout({
               History
             </Link>
             <Link
-              href="/dashboard/kings"
+              href="/dashboard/royals"
               className="text-sm font-medium hover:text-purple-400 transition-colors"
             >
-              Kings
+              Royals
             </Link>
             <Link
               href="/dashboard/festivals"
@@ -136,10 +136,10 @@ export default function DashboardLayout({
                 </li>
                 <li>
                   <Link
-                    href="/dashboard/kings"
+                    href="/dashboard/royals"
                     className="text-sm text-gray-400 hover:text-purple-400"
                   >
-                    Kings
+                    Royals
                   </Link>
                 </li>
                 <li>

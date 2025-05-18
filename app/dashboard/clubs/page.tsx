@@ -27,7 +27,7 @@ const clubs = [
       "Sports tournaments",
     ],
     meetingLocation: "Epe Town Hall, every last Saturday",
-    image: "/placeholder-2nemx.png",
+    image: "/epe-09.jpg",
     contactEmail: "youngbrothers@epe-kingdom.com",
   },
   {
@@ -44,7 +44,7 @@ const clubs = [
       "Annual royal gala",
     ],
     meetingLocation: "Royal Palace Annex, first Sunday monthly",
-    image: "/royal-gathering.png",
+    image: "/epe-10.jpg",
     contactEmail: "royalbundles@epe-kingdom.com",
   },
   {

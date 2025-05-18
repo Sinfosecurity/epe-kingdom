@@ -43,7 +43,7 @@ export function MobileNav() {
     },
     {
       name: "Kings",
-      href: "/dashboard/kings",
+      href: "/dashboard/royals",
       icon: Crown,
     },
     {
