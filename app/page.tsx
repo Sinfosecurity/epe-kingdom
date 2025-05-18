@@ -15,24 +15,24 @@ export default function LandingPage() {
   // Sample images for the carousel
   const epeImages = [
     {
-      src: "/epe-01.jpg",
-      alt: "Oba of Epe",
-      title: "The Oluepe of Epe Kingdom",
-    },
-    {
       src: "/epe-17.jpg",
-      alt: "Epe Chiefs",
-      title: "Council of Chiefs",
+      alt: "Olu Epe of Epe",
+      title: "The Olu Epe of Epe Kingdom",
     },
     {
       src: "/epe-08.jpg",
-      alt: "Epe Festival",
-      title: "Cultural Festival",
+      alt: "The League of Imam of Epe",
+      title: "The League of Imam of The Epe Kingdom",
     },
     {
       src: "/epe-13.jpg",
-      alt: "Epe Waterfront",
-      title: "Epe Waterfront",
+      alt: "Members of Epe Council",
+      title: "The Members of Epe Council",
+    },
+    {
+      src: "/epe-01.jpg",
+      alt: "Oba of Epe",
+      title: "The Epe Kingdom",
     },
     // {
     //   src: "/placeholder-ljns3.png",
