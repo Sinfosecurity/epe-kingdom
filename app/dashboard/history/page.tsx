@@ -486,7 +486,7 @@ export default function HistoryPage() {
       </section>
 
       {/* Call to Action */}
-      <section>
+      {/* <section>
         <div className="bg-purple-900/30 rounded-2xl p-8 text-center border border-purple-800/50">
           <h2 className="text-2xl font-bold mb-4 text-white">
             Explore More of Epe's Rich Heritage
@@ -519,7 +519,7 @@ export default function HistoryPage() {
             </Link>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }
