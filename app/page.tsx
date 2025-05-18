@@ -1,18 +1,10 @@
 import Link from "next/link";
-import Image from "next/image";
 import { ArrowRight } from "lucide-react";
-
 import { Button } from "@/components/ui/button";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
+import { AutoImageSlider } from "@/components/AutoImageSlider";
 
 export default function LandingPage() {
-  // Sample images for the carousel
+  // Sample images for the slider
   const epeImages = [
     {
       src: "/epe-17.jpg",
@@ -34,11 +26,6 @@ export default function LandingPage() {
       alt: "Oba of Epe",
       title: "The Epe Kingdom",
     },
-    // {
-    //   src: "/placeholder-ljns3.png",
-    //   alt: "Epe Palace",
-    //   title: "Royal Palace",
-    // },
   ];
 
   return (
@@ -64,50 +51,16 @@ export default function LandingPage() {
             </Link>
           </div>
 
-          {/* Image Carousel */}
+          {/* Auto-changing Image Slider */}
           <div className="mt-12 mb-8">
             <h2 className="text-2xl font-semibold mb-6 text-purple-300">
               Glimpses of Epe Kingdom
             </h2>
             <div className="mx-auto max-w-3xl px-8">
-              <Carousel opts={{ loop: true, align: "center" }}>
-                <CarouselContent>
-                  {epeImages.map((image, index) => (
-                    <CarouselItem key={index}>
-                      <div className="p-1">
-                        <div className="overflow-hidden rounded-xl">
-                          <Image
-                            src={image.src || "/placeholder.svg"}
-                            alt={image.alt}
-                            width={600}
-                            height={400}
-                            className="w-full h-[500px] object-cover transition-transform duration-500 hover:scale-105"
-                          />
-                        </div>
-                        <h3 className="mt-3 text-lg font-medium text-center text-purple-200">
-                          {image.title}
-                        </h3>
-                      </div>
-                    </CarouselItem>
-                  ))}
-                </CarouselContent>
-                <CarouselPrevious className="left-1 bg-black/50 text-white border-purple-700 hover:bg-purple-900/70" />
-                <CarouselNext className="right-1 bg-black/50 text-white border-purple-700 hover:bg-purple-900/70" />
-              </Carousel>
+              <AutoImageSlider images={epeImages} interval={5000} />
             </div>
           </div>
         </div>
-
-        {/* Decorative Elements */}
-        {/* <div className="absolute bottom-10 right-10 z-10">
-          <Image
-            src="/placeholder-4kaf0.png"
-            alt="Epe Traditional Symbol"
-            width={120}
-            height={120}
-            className="opacity-80"
-          />
-        </div> */}
       </main>
 
       {/* Footer */}
