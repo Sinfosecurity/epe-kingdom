@@ -99,7 +99,7 @@ export default function LandingPage() {
         </div>
 
         {/* Decorative Elements */}
-        <div className="absolute bottom-10 right-10 z-10">
+        {/* <div className="absolute bottom-10 right-10 z-10">
           <Image
             src="/placeholder-4kaf0.png"
             alt="Epe Traditional Symbol"
@@ -107,7 +107,7 @@ export default function LandingPage() {
             height={120}
             className="opacity-80"
           />
-        </div>
+        </div> */}
       </main>
 
       {/* Footer */}
