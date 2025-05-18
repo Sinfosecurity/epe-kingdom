@@ -15,16 +15,16 @@ export default function DashboardLayout({
       {/* Header */}
       <header className="bg-gray-900 border-b border-gray-800 sticky top-0 z-30">
         <div className="container mx-auto px-4 py-3 flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-2">
+          <div className="flex items-center gap-2">
             <Image
-              src="/fish-logo.png"
+              src="/placeholder-edpnh.png"
               alt="Epe Kingdom Logo"
               width={40}
               height={40}
               className="rounded-md"
             />
             <span className="font-bold text-xl">Epe Kingdom</span>
-          </Link>
+          </div>
 
           <nav className="hidden md:flex items-center gap-6">
             <Link
@@ -62,6 +62,12 @@ export default function DashboardLayout({
               className="text-sm font-medium hover:text-purple-400 transition-colors"
             >
               Tourism
+            </Link>
+            <Link
+              href="/dashboard/clubs"
+              className="text-sm font-medium hover:text-purple-400 transition-colors"
+            >
+              Clubs
             </Link>
           </nav>
 
