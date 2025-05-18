@@ -47,12 +47,12 @@ export default function Dashboard() {
                   Experience the grand cultural celebration honoring traditional
                   leadership and showcasing Epe's Islamic heritage.
                 </p>
-                <Button className="bg-purple-600 hover:bg-purple-700 w-fit">
+                <Button className="bg-purple-600 hover:bg-purple-700 mb-5 w-fit">
                   Learn More <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </div>
 
-              <div className="mt-6 md:mt-0">
+              <div className="md:mt-0">
                 <div className="bg-black/40 backdrop-blur-sm p-4 rounded-lg border border-purple-500/30">
                   <h3 className="text-center text-white font-medium mb-2">
                     Festival Countdown
