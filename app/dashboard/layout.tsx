@@ -17,7 +17,7 @@ export default function DashboardLayout({
         <div className="container mx-auto px-4 py-3 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Image
-              src="/placeholder-edpnh.png"
+              src="/epe-01.jpg"
               alt="Epe Kingdom Logo"
               width={40}
               height={40}
