@@ -289,9 +289,9 @@ export default function HistoryPage() {
               />
               <p className="text-gray-300">
                 Epe is known for its vibrant cultural festivals that celebrate
-                its heritage, including Ebi (Yam Festival), Kayo-Kayo Festival,
-                and various Islamic celebrations that reflect the town's
-                religious diversity and cultural richness.
+                its heritage, including Ojude-Oba Epe, Kayo-Kayo Festival, and
+                various Islamic celebrations that reflect the town's religious
+                diversity and cultural richness.
               </p>
             </CardContent>
           </Card>
