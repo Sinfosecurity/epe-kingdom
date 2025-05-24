@@ -120,7 +120,7 @@ export default function FestivalsPage() {
       </section>
 
       {/* Festival Calendar */}
-      <section className="mb-12">
+      {/* <section className="mb-12">
         <div className="bg-gray-900/50 rounded-2xl p-6 md:p-8 border border-gray-800">
           <h2 className="text-2xl font-bold mb-6 text-white">
             Festival Calendar
@@ -194,7 +194,7 @@ export default function FestivalsPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Major Festivals */}
       <section className="mb-16">
