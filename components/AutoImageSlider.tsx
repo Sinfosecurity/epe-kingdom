@@ -16,7 +16,7 @@ interface AutoImageSliderProps {
 
 export function AutoImageSlider({
   images,
-  interval = 3000,
+  interval = 5000,
 }: AutoImageSliderProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -39,9 +39,9 @@ export function AutoImageSlider({
   if (!images.length) return null;
 
   return (
-    <div className="relative">
+    <div className="relative w-full">
       {/* Image container */}
-      <div className="relative overflow-hidden rounded-xl h-[500px]">
+      <div className="relative overflow-hidden w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px]">
         {images.map((image, index) => (
           <div
             key={index}
@@ -55,23 +55,28 @@ export function AutoImageSlider({
               fill
               className="object-cover"
               priority={index === 0}
+              sizes="100vw"
             />
+            {/* Overlay for better text readability */}
+            <div className="absolute inset-0 bg-black/20 z-10"></div>
           </div>
         ))}
+
+        {/* Caption overlay */}
+        <div className="absolute bottom-0 left-0 right-0 z-20 bg-gradient-to-t from-black/80 to-transparent p-4 md:p-6">
+          <h3 className="text-lg md:text-xl lg:text-2xl font-medium text-center text-white">
+            {images[currentIndex]?.title}
+          </h3>
+        </div>
       </div>
 
-      {/* Caption */}
-      <h3 className="mt-3 text-lg font-medium text-center text-purple-200">
-        {images[currentIndex]?.title}
-      </h3>
-
       {/* Navigation dots */}
-      <div className="flex justify-center mt-4 gap-2">
+      <div className="flex justify-center mt-4 md:mt-6 gap-2 px-4">
         {images.map((_, index) => (
           <button
             key={index}
             onClick={() => goToSlide(index)}
-            className={`w-3 h-3 rounded-full transition-all ${
+            className={`w-3 h-3 md:w-4 md:h-4 rounded-full transition-all ${
               index === currentIndex
                 ? "bg-purple-500 scale-110"
                 : "bg-gray-600 hover:bg-gray-500"
