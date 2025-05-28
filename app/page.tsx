@@ -54,13 +54,13 @@ export default function LandingPage() {
         </div>
 
         {/* Full-Width Image Slider Section */}
-        <div className="relative z-10 w-full">
+        <div className="relative z-10 w-full p-8">
           <div className="text-center mb-4 px-4">
             <h2 className="text-xl md:text-2xl font-semibold text-purple-300">
               Glimpses of Epe Kingdom
             </h2>
           </div>
-          <div className="w-full p-8">
+          <div className="w-full">
             <AutoImageSlider images={epeImages} interval={5000} />
           </div>
         </div>

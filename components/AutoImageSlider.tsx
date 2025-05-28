@@ -41,7 +41,7 @@ export function AutoImageSlider({
   return (
     <div className="relative w-full">
       {/* Image container */}
-      <div className="relative overflow-hidden w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px]">
+      <div className="relative overflow-hidden w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] rounded-md">
         {images.map((image, index) => (
           <div
             key={index}
