@@ -37,13 +37,13 @@ export default function KingsPage() {
       ],
     },
     {
-      id: "oba-kamorudeen",
-      name: "Oba Kamorudeen Animashaun",
+      id: "Oba-shefiu",
+      name: "Oba Shefiu Olatunji Adewale",
       period: "2006 - 2017",
       image: "/placeholder-king-kamorudeen.png",
       title: "The 17th Oluepe of Epe",
       description:
-        "Oba Kamorudeen Animashaun's reign saw significant developments in Epe's infrastructure and cultural institutions. He worked to promote Epe's heritage while advocating for modern amenities and services for the community.",
+        "Oba Shefiu Olatunji Adewale's reign saw significant developments in Epe's infrastructure and cultural institutions. He worked to promote Epe's heritage while advocating for modern amenities and services for the community.",
       achievements: [
         "Modernization of the palace and royal institutions",
         "Promotion of Epe's cultural heritage through festivals",
@@ -51,21 +51,21 @@ export default function KingsPage() {
         "Strengthening relationships with government agencies",
       ],
     },
-    {
-      id: "oba-olufolarin",
-      name: "Oba Michael Olufolarin Ogunlusi",
-      period: "1985 - 2006",
-      image: "/placeholder-king-olufolarin.png",
-      title: "The 16th Oluepe of Epe",
-      description:
-        "Oba Michael Olufolarin Ogunlusi's reign was marked by efforts to integrate traditional governance with modern administrative systems. He played a crucial role in establishing Epe as an important cultural and administrative center in Lagos State.",
-      achievements: [
-        "Integration of traditional and modern governance",
-        "Expansion of educational institutions in Epe",
-        "Promotion of tourism and cultural festivals",
-        "Advocacy for infrastructure development",
-      ],
-    },
+    // {
+    //   id: "oba-olufolarin",
+    //   name: "Oba Michael Olufolarin Ogunlusi",
+    //   period: "1985 - 2006",
+    //   image: "/placeholder-king-olufolarin.png",
+    //   title: "The 16th Oluepe of Epe",
+    //   description:
+    //     "Oba Michael Olufolarin Ogunlusi's reign was marked by efforts to integrate traditional governance with modern administrative systems. He played a crucial role in establishing Epe as an important cultural and administrative center in Lagos State.",
+    //   achievements: [
+    //     "Integration of traditional and modern governance",
+    //     "Expansion of educational institutions in Epe",
+    //     "Promotion of tourism and cultural festivals",
+    //     "Advocacy for infrastructure development",
+    //   ],
+    // },
     {
       id: "oba-kosoko",
       name: "Oba Kosoko",

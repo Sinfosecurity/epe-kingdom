@@ -725,14 +725,14 @@ export default function RoyalsPage() {
                     <div className="flex flex-col md:flex-row items-center gap-6">
                       <Image
                         src="/placeholder-current-king.png"
-                        alt="Oba Kamorudeen Animashaun"
+                        alt="Oba Shefiu Olatunji Adewale"
                         width={150}
                         height={150}
                         className="rounded-xl w-32 h-32 object-cover"
                       />
                       <div>
                         <h4 className="font-bold text-white text-lg">
-                          Oba Kamorudeen Animashaun
+                          Oba Shefiu Olatunji Adewale
                         </h4>
                         <p className="text-purple-400 font-medium mb-2">
                           Chairman, Epe Kingdom Council
