@@ -57,7 +57,7 @@ export default function LandingPage() {
         <div className="relative z-10 w-full p-8">
           <div className="text-center mb-4 px-4">
             <h2 className="text-xl md:text-2xl font-semibold text-purple-300">
-              Glimpses of Epe Kingdom
+              Glimpses of Epe
             </h2>
           </div>
           <div className="w-full">
