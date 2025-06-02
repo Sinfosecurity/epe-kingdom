@@ -36,21 +36,21 @@ export default function KingsPage() {
         "Advocacy for infrastructure development in Epe region",
       ],
     },
-    {
-      id: "Oba-shefiu",
-      name: "Oba Shefiu Olatunji Adewale",
-      period: "2006 - 2017",
-      image: "/placeholder-king-kamorudeen.png",
-      title: "The 17th Oluepe of Epe",
-      description:
-        "Oba Shefiu Olatunji Adewale's reign saw significant developments in Epe's infrastructure and cultural institutions. He worked to promote Epe's heritage while advocating for modern amenities and services for the community.",
-      achievements: [
-        "Modernization of the palace and royal institutions",
-        "Promotion of Epe's cultural heritage through festivals",
-        "Development initiatives for the community",
-        "Strengthening relationships with government agencies",
-      ],
-    },
+    // {
+    //   id: "Oba-shefiu",
+    //   name: "Oba Shefiu Olatunji Adewale",
+    //   period: "2006 - 2017",
+    //   image: "/placeholder-king-kamorudeen.png",
+    //   title: "The 17th Oluepe of Epe",
+    //   description:
+    //     "Oba Shefiu Olatunji Adewale's reign saw significant developments in Epe's infrastructure and cultural institutions. He worked to promote Epe's heritage while advocating for modern amenities and services for the community.",
+    //   achievements: [
+    //     "Modernization of the palace and royal institutions",
+    //     "Promotion of Epe's cultural heritage through festivals",
+    //     "Development initiatives for the community",
+    //     "Strengthening relationships with government agencies",
+    //   ],
+    // },
     // {
     //   id: "oba-olufolarin",
     //   name: "Oba Michael Olufolarin Ogunlusi",
