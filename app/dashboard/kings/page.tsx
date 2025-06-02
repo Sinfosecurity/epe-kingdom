@@ -24,7 +24,7 @@ export default function KingsPage() {
     {
       id: "current-oluepe",
       name: "Oba Shefiu Olatunji Adewale",
-      period: "2018 - Present",
+      period: "2006 - 2025",
       image: "/epe-17.jpg",
       title: "The Current Oluepe of Epe",
       description:
