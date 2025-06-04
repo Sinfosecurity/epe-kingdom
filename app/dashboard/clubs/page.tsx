@@ -65,6 +65,23 @@ const clubs = [
     contactEmail: "epewomen@epe-kingdom.com",
   },
   {
+    id: "epe-women-associations",
+    name: "Diamond Club",
+    founded: "1968",
+    description:
+      "A powerful collective of women dedicated to empowerment, entrepreneurship, and preserving the cultural values of Epe.",
+    members: "200+",
+    activities: [
+      "Women's empowerment workshops",
+      "Microfinance initiatives",
+      "Cultural exhibitions",
+      "Health awareness campaigns",
+    ],
+    meetingLocation: "Epe Community Center, second Saturday monthly",
+    image: "/placeholder-7qd1g.png",
+    contactEmail: "epewomen@epe-kingdom.com",
+  },
+  {
     id: "epe-youth-forum",
     name: "Epe Youth Forum",
     founded: "2005",
