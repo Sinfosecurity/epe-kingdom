@@ -135,6 +135,24 @@ const clubs = [
       "/placeholder.svg?height=300&width=500&query=traditional African artifacts and cultural items display",
     contactEmail: "culturalsociety@epe-kingdom.com",
   },
+  {
+    id: "epe-cultural-preservations",
+    name: "Epe Cultural Preservation Society",
+    founded: "1990",
+    description:
+      "Dedicated to documenting, preserving, and promoting the rich cultural heritage and traditions of Epe Kingdom.",
+    members: "65",
+    activities: [
+      "Cultural documentation",
+      "Museum curation",
+      "Traditional arts workshops",
+      "Heritage education",
+    ],
+    meetingLocation: "Epe Heritage Center, first Saturday monthly",
+    image:
+      "/placeholder.svg?height=300&width=500&query=traditional African artifacts and cultural items display",
+    contactEmail: "culturalsociety@epe-kingdom.com",
+  },
 ];
 
 export default function ClubsPage() {
