@@ -136,7 +136,7 @@ const clubs = [
     contactEmail: "culturalsociety@epe-kingdom.com",
   },
   {
-    id: "epe-cultural-preservations",
+    id: "epe-cultural-preservationss",
     name: "Epe Cultural Preservation Society",
     founded: "1990",
     description:
